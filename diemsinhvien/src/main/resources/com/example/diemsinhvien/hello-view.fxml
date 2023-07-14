@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.diemsinhvien.HelloController">
+    <Label text="ID" />
+    <TextField fx:id="idTextField" />
+    <Label text="Name" />
+    <TextField fx:id="nameTextField" />
+    <Label text="Class" />
+    <TextField fx:id="classTextField" />
+    <Label text="Gender" />
+    <TextField fx:id="genderTextField" />
+    <Label text="Address" />
+    <TextField fx:id="addressTextField" />
+    <Label text="Score" />
+    <TextField fx:id="scoreTextField" />
+    <Button text="Add" onAction="#addButtonClicked" />
+    <Button text="Update" onAction="#updateButtonClicked" />
+    <Button text="Delete" onAction="#deleteButtonClicked" />
+    <Label fx:id="resultLabel" />
+</VBox>
